@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "863819217946",
+    "project_id": "zexer-e095e",
+    "storage_bucket": "zexer-e095e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863819217946:android:aba2f609cd2bfc7ee7a5a3",
+        "android_client_info": {
+          "package_name": "com.example.leez"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5WpxB7GPDckGe24ghHXvM5Lj55GqZe8k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

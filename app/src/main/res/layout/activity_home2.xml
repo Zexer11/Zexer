@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/shopNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Your Shop"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/manageAccountButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shopNameTextView"
+        android:layout_marginTop="39dp"
+        android:text="Manage Account" />
+
+    <Button
+        android:id="@+id/uploadProductsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/manageAccountButton"
+        android:layout_marginTop="48dp"
+        android:text="Upload Products" />
+
+    <Button
+        android:id="@+id/manageTransactionsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uploadProductsButton"
+        android:layout_marginTop="50dp"
+        android:text="Manage Transactions" />
+
+</RelativeLayout>

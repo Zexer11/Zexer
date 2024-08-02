@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".ReceiptActivity">
+
+    <TextView
+        android:id="@+id/titleReceipt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Receipt"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <!-- Table Layout for Receipt Items -->
+    <TableLayout
+        android:id="@+id/tableLayoutReceiptItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleReceipt"
+        android:layout_marginTop="16dp">
+
+        <!-- Table Header -->
+        <TableRow>
+
+            <TextView
+                android:layout_width="176dp"
+                android:layout_column="0"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Item" />
+
+            <TextView
+                android:layout_width="78dp"
+                android:layout_column="1"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Quantity" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_column="2"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Price" />
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_column="3"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="Total" />
+        </TableRow>
+
+        <!-- Rows will be added dynamically in the code -->
+
+    </TableLayout>
+
+    <!-- Button for Payment -->
+    <Button
+        android:id="@+id/buttonPay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tableLayoutReceiptItems"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Proceed to Pay" />
+
+</RelativeLayout>

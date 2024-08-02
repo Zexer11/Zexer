@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black"
+    tools:context=".PaymentMethodActivity">
+
+    <TextView
+        android:id="@+id/titlePaymentMethod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="Select Payment Method"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonMpesa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titlePaymentMethod"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="M-Pesa" />
+
+    <Button
+        android:id="@+id/buttonPaypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonMpesa"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="PayPal" />
+
+    <Button
+        android:id="@+id/buttonCreditCard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPaypal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Credit Card" />
+
+</RelativeLayout>
