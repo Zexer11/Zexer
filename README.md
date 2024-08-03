@@ -33,13 +33,10 @@ This project is a work in progress. The basic functionality is implemented, but 
 - **Notifications:** Notify users about deals, discounts, and promotions.
 
 ## Screenshots
+For a visual overview of the app, please check the `screenshots` folder in the project directory.
+**Folder Path**: [screenshots](screenshots/)
 
-![Home Screen](screenshots/home_screen.png)
-![Scan Screen](screenshots/scan_screen.png)
-![Receipt Screen](screenshots/receipt_screen.png)
-
-
-To run this project locally, follow these steps:
+## To run this project locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
