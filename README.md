@@ -17,6 +17,7 @@ Zexer is a mobile application developed to streamline the shopping experience. T
 - **Java:** For application logic.
 - **XML:** For defining UI layouts.
 - **Android Studio:** Integrated development environment.
+- **Adobe Illustrator:** Used for designing the app's logo.
 - **Firebase:** (Planned) For user authentication and database management.
 
 ## Current Status
